@@ -1,0 +1,48 @@
+No comments now
+No worries
+What's up
+
+U - untracked
+M - modified
+
+git init - inicia
+
+git add  - adiciona
+
+git commit -m - integra
+
+git branch -M - Cria um ponteiro, uma ramificação no código principal
+
+git status - apresenta o status atual dos arquivos
+
+git push - envia os arquivos locais para o repositório remoto (enviar) - local
+
+git pull - recupera os arquivos presentes no repositório remoto, possibilitando atualizar o repositório local (sicronizar) - remoto
+
+git log  - exibe o histórico dos commits
+
+git checkout - funciona igual control z (antes do add e commit)
+
+git reset --hard origin/main - reseta o codigo após git add/ git commit, porém não depois do git push
+
+### Criando branchs
+
+git branch - retorna as branchs criadas
+
+git branch name - comando git para criar uma nova branch
+
+git checkout name - Troca de branchs
+
+git checkout -b "name" - Cria e muda para a nova branch
+
+git checkout -d "name" - Deleta a branch "name"
+
+git merge sempre vai "puxar" o conteúdo para a branch em que está no momento
+
+merge = mesclar/unir
+
+git merge name -   Faz a junção com a main, une/junta as páginas selecionadas com base na atual (exemplo: árvore)
+
+git stash - retorna a branch para o estado inicial da "main"
+
+ onde você pode armazenar temporariamente um instantâneo de suas alterações sem fazer o commit delas para o repositório.
