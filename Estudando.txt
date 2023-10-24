@@ -45,6 +45,8 @@ git merge name -   Faz a junção com a main, une/junta as páginas selecionadas
 
 git stash - retorna a branch para o estado inicial da "main", no último save do commit ( backup ) 
 
+git stash list - retorna o stash salvo
+
 git stash apply {} - seleciona a stash e faz o backup. 
 
 git stash show -p nome - mostra as modificações na stash chamada.
