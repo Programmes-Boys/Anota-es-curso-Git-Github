@@ -43,6 +43,10 @@ merge = mesclar/unir
 
 git merge name -   Faz a junção com a main, une/junta as páginas selecionadas com base na atual (exemplo: árvore)
 
-git stash - retorna a branch para o estado inicial da "main"
+git stash - retorna a branch para o estado inicial da "main", no último save do commit
+
+git stash apply {} - 
+
+git stash show -p nome - 
 
  onde você pode armazenar temporariamente um instantâneo de suas alterações sem fazer o commit delas para o repositório.
