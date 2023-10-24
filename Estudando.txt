@@ -15,9 +15,9 @@ git branch -M - Cria um ponteiro, uma ramificação no código principal
 
 git status - apresenta o status atual dos arquivos
 
-git clone <URL> ( todos os arquivos, inclusive a pasta )
+git clone <URL>   - ( todos os arquivos, inclusive a pasta )
 
-git clone <URL> . ( somente os arquivos de pasta )
+git clone <URL> . - ( somente os arquivos de pasta )
 
 git push - envia os arquivos locais para o repositório remoto (enviar) - local
 
