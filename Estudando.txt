@@ -1,7 +1,9 @@
 U - untracked
 M - modified
 
+git config --global --list --show-origin - Retorna todas as configurações feitas no git, junto de suas respectivas localizações.
 
+git config --global init.defaultBranch main - Substitui o nome padrão master por main 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //clonar um repositorio para a maquina local ( deve ser feito no cmd em uma pasta já criada )
