@@ -7,6 +7,10 @@ git config --global --list --show-origin - Retorna todas as configurações feit
 
 git config --global init.defaultBranch main - Substitui o nome padrão master por main
 
+git config --global credential.helper cache - Conta git temporária no PC (compartilhando com outras pessoas) 
+
+git config --global credential.helper store - Fixa sua conta na máquina de forma a não ser necessário gerar tokens de acesso
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //clonar um repositorio para a maquina local ( deve ser feito no cmd em uma pasta já criada )
