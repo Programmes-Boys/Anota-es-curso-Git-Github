@@ -55,7 +55,7 @@ git push (remote-name) (Branch-name) - enviar as alteraçoes de uma branch para 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-//fecht
+//fetch
 git fetch (remote-name) - busca as diferenças dentro de uma mesma branch do repositorio online para o repositorio local sem alterar(fazer o merge) a branch
 
 git fetch (remote-name) (Branch-name) -  mostra as diferenças acima citadas porem em uma unica branch 
